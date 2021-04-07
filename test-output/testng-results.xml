@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="4" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-04-01T06:33:51Z" name="Default suite" finished-at="2021-04-01T06:34:11Z" duration-ms="20175">
+    <groups>
+    </groups>
+    <test started-at="2021-04-01T06:33:51Z" name="Default test" finished-at="2021-04-01T06:34:11Z" duration-ms="20175">
+      <class name="nopcommerceadmin.tests.HomeTC">
+        <test-method is-config="true" signature="init()[pri:0, instance:nopcommerceadmin.tests.HomeTC@750e2b97]" started-at="2021-04-01T06:33:51Z" name="init" finished-at="2021-04-01T06:34:07Z" duration-ms="16010" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="verifyHomePageTitle()[pri:1, instance:nopcommerceadmin.tests.HomeTC@750e2b97]" started-at="2021-04-01T06:34:07Z" name="verifyHomePageTitle" finished-at="2021-04-01T06:34:07Z" duration-ms="71" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitle -->
+        <test-method signature="verifyHomePage_Logo()[pri:2, instance:nopcommerceadmin.tests.HomeTC@750e2b97]" started-at="2021-04-01T06:34:07Z" name="verifyHomePage_Logo" finished-at="2021-04-01T06:34:07Z" duration-ms="94" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePage_Logo -->
+        <test-method signature="clickCatalog_Link()[pri:4, instance:nopcommerceadmin.tests.HomeTC@750e2b97]" started-at="2021-04-01T06:34:07Z" name="clickCatalog_Link" finished-at="2021-04-01T06:34:11Z" duration-ms="3220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickCatalog_Link -->
+        <test-method is-config="true" signature="tear()[pri:0, instance:nopcommerceadmin.tests.HomeTC@750e2b97]" started-at="2021-04-01T06:34:11Z" name="tear" finished-at="2021-04-01T06:34:11Z" duration-ms="741" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear -->
+      </class> <!-- nopcommerceadmin.tests.HomeTC -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

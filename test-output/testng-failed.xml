@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="chrome(failed)">
+    <classes>
+      <class name="nopcommerceadmin.tests.HomeTC">
+        <methods>
+          <include name="clickCatalog_Link"/>
+          <include name="verifyHomePageTitle"/>
+          <include name="init"/>
+          <include name="verifyHomePage_Logo"/>
+          <include name="tear"/>
+        </methods>
+      </class> <!-- nopcommerceadmin.tests.HomeTC -->
+      <class name="nopcommerceadmin.tests.ProductTC">
+        <methods>
+          <include name="getProdDetails"/>
+          <include name="Producttxt"/>
+          <include name="Producttitle"/>
+          <include name="init"/>
+          <include name="tear"/>
+        </methods>
+      </class> <!-- nopcommerceadmin.tests.ProductTC -->
+    </classes>
+  </test> <!-- chrome(failed) -->
+  <test thread-count="5" parallel="tests" name="firefox(failed)">
+    <classes>
+      <class name="nopcommerceadmin.tests.LoginTC">
+        <methods>
+          <include name="tearDown"/>
+          <include name="loginTest"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- nopcommerceadmin.tests.LoginTC -->
+      <class name="nopcommerceadmin.tests.HomeTC">
+        <methods>
+          <include name="clickCatalog_Link"/>
+          <include name="verifyHomePageTitle"/>
+          <include name="init"/>
+          <include name="verifyHomePage_Logo"/>
+          <include name="tear"/>
+        </methods>
+      </class> <!-- nopcommerceadmin.tests.HomeTC -->
+      <class name="nopcommerceadmin.tests.ProductTC">
+        <methods>
+          <include name="getProdDetails"/>
+          <include name="Producttxt"/>
+          <include name="Producttitle"/>
+          <include name="init"/>
+          <include name="tear"/>
+        </methods>
+      </class> <!-- nopcommerceadmin.tests.ProductTC -->
+    </classes>
+  </test> <!-- firefox(failed) -->
+</suite> <!-- Failed suite [Suite] -->
